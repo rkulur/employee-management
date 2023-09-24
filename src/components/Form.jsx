@@ -35,7 +35,7 @@ export default function Form({ title, handleSubmit }) {
         action="GET"
         className="flex flex-col justify-center items-center px-20 py-16 form shadow-2xl w-2/6 rounded-2xl bg-white"
       >
-        <h1 className="font-bold text-[2rem] p-3">{title} Student</h1>
+        <h1 className="font-bold text-[2rem] p-3">{title} Employee</h1>
         <div>
           <label>Name</label>
           <input
